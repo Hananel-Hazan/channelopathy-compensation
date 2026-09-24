@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Compiled NEURON mechanisms (nrnivmodl output)
+x86_64/
+arm64/
+*.o
+*.so
+
+# Third-party ModelDB files installed by scripts/fetch_modeldb.sh (see NOTICE)
+Neuron_Test/R859C/README.TXT
+Neuron_Test/R859C/ichanWT2005.mod
+Neuron_Test/R859C/ichanR859C1.mod
+Neuron_Test/R859C/APthreshold.hoc
+Neuron_Test/R859C/mosinit.hoc
+Neuron_Test/R859C/displaytraces.hoc
+experiments/wo6/phase2/mutant/
+pipeline/r859c/*/ichanWT2005.mod
+pipeline/r859c/*/ichanR859C1.mod
+
+# Working directory of experiments/wo97/build_work.py
+experiments/wo97/work/
+
+# Large inputs that are not in the repository (docs/DATA_EXTERNAL.md)
+external_data/
+
+# Rendered figures; the figure scripts regenerate them
+figures/*.pdf
+figures/*.png
+figures/r859c_stimulus_ladder_traces.csv

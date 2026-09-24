@@ -1,0 +1,129 @@
+{
+ "host": "HoursOne",
+ "samples": 200000,
+ "case_numbers": [
+  6,
+  7
+ ],
+ "rates": {
+  "rtx2070_fused": 34350.0,
+  "rtx4070ti_fused": 63205.0,
+  "neuron_per_core": 1.0
+ },
+ "cases": [
+  {
+   "case": "kinetic, potassium +9.4 mV",
+   "best_known": 99.05,
+   "schemes": {
+    "uniform": {
+     "seconds": 37.830241680145264,
+     "best_found": 8.0952380952381,
+     "spiking_fraction": 0.45387,
+     "thresholds": {
+      "within 1 points": {
+       "threshold_similarity": 98.05,
+       "hit_fraction": 0.0,
+       "median_draws_theory": null,
+       "observed_median_first_hit": null
+      },
+      "within 2 points": {
+       "threshold_similarity": 97.05,
+       "hit_fraction": 0.0,
+       "median_draws_theory": null,
+       "observed_median_first_hit": null
+      },
+      "within 5 points": {
+       "threshold_similarity": 94.05,
+       "hit_fraction": 0.0,
+       "median_draws_theory": null,
+       "observed_median_first_hit": null
+      }
+     }
+    },
+    "log-uniform": {
+     "seconds": 3.2102866172790527,
+     "best_found": 98.09523809523809,
+     "spiking_fraction": 0.469275,
+     "thresholds": {
+      "within 1 points": {
+       "threshold_similarity": 98.05,
+       "hit_fraction": 1e-05,
+       "median_draws_theory": 69314.37148182662,
+       "observed_median_first_hit": 53322.0
+      },
+      "within 2 points": {
+       "threshold_similarity": 97.05,
+       "hit_fraction": 4.5e-05,
+       "median_draws_theory": 15402.924102920255,
+       "observed_median_first_hit": 13805.0
+      },
+      "within 5 points": {
+       "threshold_similarity": 94.05,
+       "hit_fraction": 0.00016,
+       "median_draws_theory": 4331.823295666675,
+       "observed_median_first_hit": 4147.5
+      }
+     }
+    }
+   },
+   "d_untreated": 420
+  },
+  {
+   "case": "kinetic, both shifts",
+   "best_known": 95.28,
+   "schemes": {
+    "uniform": {
+     "seconds": 37.833744049072266,
+     "best_found": -253.54330708661416,
+     "spiking_fraction": 0.19435,
+     "thresholds": {
+      "within 1 points": {
+       "threshold_similarity": 94.28,
+       "hit_fraction": 0.0,
+       "median_draws_theory": null,
+       "observed_median_first_hit": null
+      },
+      "within 2 points": {
+       "threshold_similarity": 93.28,
+       "hit_fraction": 0.0,
+       "median_draws_theory": null,
+       "observed_median_first_hit": null
+      },
+      "within 5 points": {
+       "threshold_similarity": 90.28,
+       "hit_fraction": 0.0,
+       "median_draws_theory": null,
+       "observed_median_first_hit": null
+      }
+     }
+    },
+    "log-uniform": {
+     "seconds": 3.161120891571045,
+     "best_found": 94.48818897637796,
+     "spiking_fraction": 0.429535,
+     "thresholds": {
+      "within 1 points": {
+       "threshold_similarity": 94.28,
+       "hit_fraction": 5e-06,
+       "median_draws_theory": 138629.08953810995,
+       "observed_median_first_hit": 98064.0
+      },
+      "within 2 points": {
+       "threshold_similarity": 93.28,
+       "hit_fraction": 5e-06,
+       "median_draws_theory": 138629.08953810995,
+       "observed_median_first_hit": 98064.0
+      },
+      "within 5 points": {
+       "threshold_similarity": 90.28,
+       "hit_fraction": 5e-06,
+       "median_draws_theory": 138629.08953810995,
+       "observed_median_first_hit": 98064.0
+      }
+     }
+    }
+   },
+   "d_untreated": 127
+  }
+ ]
+}

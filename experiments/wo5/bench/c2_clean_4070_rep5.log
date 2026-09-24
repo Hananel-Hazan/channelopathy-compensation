@@ -1,0 +1,34 @@
+torch 2.10.0+cu128  NVIDIA GeForce RTX 4070 Ti  11.62 GiB
+setup and warm-up are OUTSIDE the timed region
+
+--- baseline: the repository's own HH.forward, eager Python loop ---
+     sets   us per step  s per set-unit      sets/s   peak GiB
+       64        804.69          24.141         2.7       0.00
+     1024        802.70          24.081        42.5       0.00
+     4096        809.76          24.293       168.6       0.01
+    16384        809.20          24.276       674.9       0.04
+    65536       1063.07          31.892      2054.9       0.15
+   262144      12807.04         384.211       682.3       0.60
+  1048576      57317.44        1719.523       609.8       2.32
+
+--- CUDA graph capture, 25 integration steps per replay ---
+     sets   us per step  s per set-unit      sets/s   peak GiB
+       64         55.15           1.655        38.7       0.00
+     1024         62.61           1.878       545.2       0.00
+     4096         81.37           2.441      1678.0       0.02
+    16384        194.50           5.835      2807.9       0.07
+    65536        949.26          28.478      2301.3       0.26
+   262144      12018.21         360.546       727.1       1.05
+  1048576      54744.17        1642.325       638.5       4.10
+
+--- torch.compile (Inductor), 25 integration steps per call ---
+     sets   us per step  s per set-unit      sets/s   peak GiB
+       64          5.52           0.166       386.2       0.00
+     1024          5.68           0.170      6010.2       0.00
+     4096          5.81           0.174     23511.9       0.01
+    16384          5.57           0.167     98064.3       0.04
+    65536         34.54           1.036     63245.5       0.16
+   262144        138.65           4.160     63022.8       0.67
+  1048576        549.14          16.474     63649.7       2.60
+
+DONE

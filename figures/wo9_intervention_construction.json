@@ -1,0 +1,36 @@
+{
+  "Spike Count": {
+    "n_MT_WT": 1050,
+    "n_MT_MT": 37,
+    "n_difference_vectors": 38850,
+    "difference_vectors_all_strictly_positive": true,
+    "n_difference_vectors_positive_in_all_three": 38850,
+    "max_tests_if_nothing_rejected": 2874900,
+    "admissible_plus_delta": 1437450,
+    "admissible_minus_delta": 0,
+    "reconstructed_total": 1437450,
+    "observed_total": 1437450,
+    "reconstruction_matches_observed": true,
+    "per_group_matches_observed": true,
+    "rejected_fraction_pct": 50.0,
+    "observed_per_group_min": 38850,
+    "observed_per_group_max": 38850
+  },
+  "Dynamic Time Warping": {
+    "n_MT_WT": 70,
+    "n_MT_MT": 70,
+    "n_difference_vectors": 4900,
+    "difference_vectors_all_strictly_positive": false,
+    "n_difference_vectors_positive_in_all_three": 1606,
+    "max_tests_if_nothing_rejected": 686000,
+    "admissible_plus_delta": 341760,
+    "admissible_minus_delta": 218470,
+    "reconstructed_total": 560230,
+    "observed_total": 560230,
+    "reconstruction_matches_observed": true,
+    "per_group_matches_observed": true,
+    "rejected_fraction_pct": 18.3338,
+    "observed_per_group_min": 6635,
+    "observed_per_group_max": 8967
+  }
+}

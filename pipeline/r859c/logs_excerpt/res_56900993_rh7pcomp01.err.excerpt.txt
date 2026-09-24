@@ -1,0 +1,20 @@
+Excerpt of Explore8/logs/res_56900993_rh7pcomp01.err (job log of the original run; the full log is in the Zenodo deposit).
+Progress bars in this log are redrawn in place with carriage returns, so one physical line
+holds many redraws. Each entry gives the physical line number (counting newline characters),
+the byte offset of the quoted redraw, and the redraw's text exactly as logged.
+
+line 3, byte 95: 0%|          | 0/1437450 [00:00<?, ?it/s]
+    the spike-count stage opens its progress bar: 1,437,450 tests
+line 3, byte 183: 0%|          | 1/1437450 [00:04<1952:04:45,  4.89s/it]
+    the first test completes 4 s into the job
+line 3, byte 90285063: 0%|          | 0/1437450 [24:17:03<?, ?it/s]
+    redrawn when the time-warping bar opens: the spike-count stage ended 24 h 17 min 3 s into the job
+line 5, byte 90285324: 0%|          | 0/560230 [00:00<?, ?it/s]
+    the time-warping stage opens its progress bar: 560,230 tests
+line 560238, byte 125916127: 0%|          | 0/560230 [9:06:00<?, ?it/s]
+    the time-warping worker pool finishes after 9 h 6 min 0 s
+line 560239, byte 125916223: 0%|          | 0/560230 [9:12:50<?, ?it/s]
+    the time-warping stage closes after 9 h 12 min 50 s (results saved)
+line 560238, byte 125916175: 0%|          | 0/1437450 [33:29:53<?, ?it/s]
+    the spike-count bar is closed at the end of the job, 33 h 29 min 53 s after it opened
+    (24:17:03 + 9:12:50 = 33:29:53: the whole job, both stages)

@@ -1,0 +1,185 @@
+{
+  "question": "Can a candidate be carried from the differentiable model to the NEURON model by multiplying each conductance by the same factor? This is the bridge the paper's own prescription language implies ('sodium x0.79, delayed-rectifier potassium x1.94, leak x0.97').",
+  "method": "Each model's wild-type configuration, one conductance scaled at a time, summed spike count over that model's own 35-level ladder (300 ms, dt 0.01, spike threshold -10 mV, pipeline detector). NEURON: ichanWT2005 with gnatbar 0.2, gkfbar 0.06, gl 0.0005 mho/cm2, 20-360 pA into a 25 x 25 um compartment = 1.0 to 18.3 uA/cm2. Differentiable: experiments/wo5/wo5_lib.py with 120, 36, 0.03 mS/cm2, 0 to 17 uA/cm2. The two ladders cover nearly the same current-density range, which is what makes the comparison fair.",
+  "caveat": "Summed spike count over the ladder is coarser than the paper's criterion, which is the summed per-level absolute difference. And this shows the NAIVE multiplicative bridge fails; it does not prove that no calibrated bridge exists.",
+  "baselines": {
+    "neuron_wild_type_total_spikes": 498,
+    "neuron_R859C_total_spikes": 490,
+    "differentiable_wild_type_total_spikes": 470,
+    "differentiable_variant_shift_6.1mV_total_spikes": 11
+  },
+  "leak_baseline_mismatch": {
+    "neuron_gl_mS_per_cm2": 0.5,
+    "differentiable_gl_mS_per_cm2": 0.03,
+    "ratio": 16.666666666666668,
+    "leak_over_sodium_neuron": 0.0025,
+    "leak_over_sodium_differentiable": 0.00025
+  },
+  "sensitivity_percent_of_own_wild_type": {
+    "Na": {
+      "0.25": {
+        "neuron_pct": 93.17,
+        "differentiable_pct": 0.85,
+        "neuron_delta_pct": -6.83,
+        "differentiable_delta_pct": -99.15,
+        "direction": "same"
+      },
+      "0.5": {
+        "neuron_pct": 100.2,
+        "differentiable_pct": 3.19,
+        "neuron_delta_pct": 0.2,
+        "differentiable_delta_pct": -96.81,
+        "direction": "one model barely moves"
+      },
+      "0.75": {
+        "neuron_pct": 100.4,
+        "differentiable_pct": 62.34,
+        "neuron_delta_pct": 0.4,
+        "differentiable_delta_pct": -37.66,
+        "direction": "one model barely moves"
+      },
+      "1.0": {
+        "neuron_pct": 100.0,
+        "differentiable_pct": 100.0
+      },
+      "1.5": {
+        "neuron_pct": 93.37,
+        "differentiable_pct": 121.28,
+        "neuron_delta_pct": -6.63,
+        "differentiable_delta_pct": 21.28,
+        "direction": "OPPOSITE"
+      },
+      "2.0": {
+        "neuron_pct": 84.14,
+        "differentiable_pct": 141.49,
+        "neuron_delta_pct": -15.86,
+        "differentiable_delta_pct": 41.49,
+        "direction": "OPPOSITE"
+      },
+      "4.0": {
+        "neuron_pct": 63.65,
+        "differentiable_pct": 153.4,
+        "neuron_delta_pct": -36.35,
+        "differentiable_delta_pct": 53.4,
+        "direction": "OPPOSITE"
+      }
+    },
+    "K": {
+      "0.25": {
+        "neuron_pct": 53.21,
+        "differentiable_pct": 175.74,
+        "neuron_delta_pct": -46.79,
+        "differentiable_delta_pct": 75.74,
+        "direction": "OPPOSITE"
+      },
+      "0.5": {
+        "neuron_pct": 77.51,
+        "differentiable_pct": 154.89,
+        "neuron_delta_pct": -22.49,
+        "differentiable_delta_pct": 54.89,
+        "direction": "OPPOSITE"
+      },
+      "0.75": {
+        "neuron_pct": 93.17,
+        "differentiable_pct": 127.66,
+        "neuron_delta_pct": -6.83,
+        "differentiable_delta_pct": 27.66,
+        "direction": "OPPOSITE"
+      },
+      "1.0": {
+        "neuron_pct": 100.0,
+        "differentiable_pct": 100.0
+      },
+      "1.5": {
+        "neuron_pct": 106.02,
+        "differentiable_pct": 2.34,
+        "neuron_delta_pct": 6.02,
+        "differentiable_delta_pct": -97.66,
+        "direction": "OPPOSITE"
+      },
+      "2.0": {
+        "neuron_pct": 108.84,
+        "differentiable_pct": 0.21,
+        "neuron_delta_pct": 8.84,
+        "differentiable_delta_pct": -99.79,
+        "direction": "OPPOSITE"
+      },
+      "4.0": {
+        "neuron_pct": 111.85,
+        "differentiable_pct": 0.0,
+        "neuron_delta_pct": 11.85,
+        "differentiable_delta_pct": -100.0,
+        "direction": "OPPOSITE"
+      }
+    },
+    "leak": {
+      "0.25": {
+        "neuron_pct": 157.63,
+        "differentiable_pct": 100.43,
+        "neuron_delta_pct": 57.63,
+        "differentiable_delta_pct": 0.43,
+        "direction": "one model barely moves"
+      },
+      "0.5": {
+        "neuron_pct": 142.37,
+        "differentiable_pct": 100.43,
+        "neuron_delta_pct": 42.37,
+        "differentiable_delta_pct": 0.43,
+        "direction": "one model barely moves"
+      },
+      "0.75": {
+        "neuron_pct": 122.49,
+        "differentiable_pct": 100.21,
+        "neuron_delta_pct": 22.49,
+        "differentiable_delta_pct": 0.21,
+        "direction": "one model barely moves"
+      },
+      "1.0": {
+        "neuron_pct": 100.0,
+        "differentiable_pct": 100.0
+      },
+      "1.5": {
+        "neuron_pct": 52.41,
+        "differentiable_pct": 99.36,
+        "neuron_delta_pct": -47.59,
+        "differentiable_delta_pct": -0.64,
+        "direction": "one model barely moves"
+      },
+      "2.0": {
+        "neuron_pct": 11.24,
+        "differentiable_pct": 98.94,
+        "neuron_delta_pct": -88.76,
+        "differentiable_delta_pct": -1.06,
+        "direction": "one model barely moves"
+      },
+      "4.0": {
+        "neuron_pct": 0.0,
+        "differentiable_pct": 97.45,
+        "neuron_delta_pct": -100.0,
+        "differentiable_delta_pct": -2.55,
+        "direction": "one model barely moves"
+      }
+    }
+  },
+  "conclusion": "SODIUM: at 1.5x, 2x and 4x both models move materially and in OPPOSITE directions -- the differentiable model fires 21 to 53 % more while NEURON fires 7 to 36 % less, because NEURON enters depolarization block. At 0.5x and 0.75x the differentiable model collapses (to 3 % and 62 % of wild type) while NEURON barely moves. POTASSIUM: at all 6 factors both move materially and in OPPOSITE directions -- scaling potassium up silences the differentiable model (2 % at 1.5x, 0 % at 4x) and slightly increases NEURON's firing (106 % at 1.5x, 112 % at 4x). LEAK: the differentiable model is essentially insensitive (97 to 100 % of wild type across the whole 0.25x to 4x range) while NEURON swings from 158 % to 0 %. So the naive multiplicative bridge does not carry information: a candidate the differentiable model ranks highly is not one the NEURON model would rank highly.",
+  "per_axis_summary": {
+    "Na": {
+      "factors_tested_excluding_1x": 6,
+      "both_move_materially_and_disagree_in_sign": 3,
+      "both_move_materially_and_agree_in_sign": 1,
+      "one_model_barely_moves": 2
+    },
+    "K": {
+      "factors_tested_excluding_1x": 6,
+      "both_move_materially_and_disagree_in_sign": 6,
+      "both_move_materially_and_agree_in_sign": 0,
+      "one_model_barely_moves": 0
+    },
+    "leak": {
+      "factors_tested_excluding_1x": 6,
+      "both_move_materially_and_disagree_in_sign": 0,
+      "both_move_materially_and_agree_in_sign": 0,
+      "one_model_barely_moves": 6
+    }
+  }
+}

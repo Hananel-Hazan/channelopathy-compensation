@@ -1,0 +1,127 @@
+//*********************************************************************
+//
+//  APthreshold.hoc
+//
+// 	Alan Goldin Lab, University of California, Irvine
+// 	Jay Lickfett - Last Modified: 9 Sept 2005
+//
+//
+//  Injects increasing amounts of current into separate  
+//	model neuron soma to determine action potential thresholds.
+//
+//*********************************************************************
+
+strdef logfile, useCellType
+
+//----------------------------------------------------------------------
+
+ilow = 20   	// starting injection current (pA)
+istep = 10		// current step increment (pA)
+nsteps = 35		// number of steps to run
+ 
+logfile = "APthreshold.txt"
+
+verbosedata = 0   // 1 to log all data points to disk, or
+				  // 0 to log every 10th data point (faster)
+
+useCellType = "R859C"	// possible values:  WT-2005, R859C, Mixed
+
+
+//----------------------------------------------------------------------
+				
+
+secondorder = 2 
+
+
+begintemplate ICellR859C
+
+	public isoma
+	create isoma
+	objectvar stim
+
+	proc init() {		// takes injection current amplitude as argument
+	
+		iamp = $1	
+	
+		isoma {
+			nseg=1 
+			L=25 
+			diam=25
+
+			Ra=210		
+			cm=1
+			
+			insert ichanR859C1
+			enat=50 
+			ekf=-80 
+			gnatbar_ichanR859C1	= 0.2
+			gkfbar_ichanR859C1	= 0.06
+			gl_ichanR859C1		= 0.0005 
+			el_ichanR859C1		= -60 
+		}
+
+			
+		isoma stim = new IClamp(0.5)
+		stim.del = 50
+		stim.dur = 200
+		stim.amp = iamp/1000
+	}
+
+endtemplate ICellR859C
+
+
+
+// instantiate the test cells (one for each injected current step)
+
+objectvar cell[nsteps]
+for i=0, nsteps-1 {	 cell[i] = new ICellR859C(ilow+(istep*i))  }
+
+// simulation control
+
+dt = 0.01
+v_init = -60
+tstop = 300
+tctr = 0
+
+finitialize(v_init)
+
+
+// voltage log in memeory
+objref data_vecs[36]
+
+for i=0, 35 {
+	data_vecs[i] = new Vector()
+}
+
+
+proc runsim() {
+
+//	wopen(logfile)
+	
+//	fprint("APthreshold.hoc:  ilow=%d  istep=%d  nsteps=%d  verbosedata=%d  useCellType=%s  \n\n",ilow,istep,nsteps,verbosedata,useCellType)
+//	fprint("Time (ms)\t")
+//	for i=0, nsteps-1 { fprint("%d pA\t",ilow+(istep*i)) }
+//	fprint("\n")
+	
+	while(t<tstop) {
+		
+		if ((verbosedata == 1) || (tctr % 10 == 0)) {
+//			fprint("%f\t", t)
+			for i=0, nsteps-1 {
+				tmp = cell[i].isoma.v(0.5)
+				data_vecs[i].append(tmp)
+//				fprint("%f\t", tmp)
+			}
+//			fprint("\n")
+		}
+		
+		tctr = tctr + 1
+			
+		fadvance()
+	}
+	
+//	wopen()  
+}
+
+runsim()
+

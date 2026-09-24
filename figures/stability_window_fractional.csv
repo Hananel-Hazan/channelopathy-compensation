@@ -1,0 +1,281 @@
+model,perturbation_pct,mode,efficacy_retained_pct_of_unperturbed
+multi-compartment (ModelDB 118986),1.0,one conductance at a time,100.0
+multi-compartment (ModelDB 118986),1.0,"joint draws, median",100.0
+multi-compartment (ModelDB 118986),1.0,"joint draws, 5th percentile",100.0
+multi-compartment (ModelDB 118986),1.0,worst combination of directions,96.875
+multi-compartment (ModelDB 118986),2.0,one conductance at a time,96.875
+multi-compartment (ModelDB 118986),2.0,"joint draws, median",100.0
+multi-compartment (ModelDB 118986),2.0,"joint draws, 5th percentile",96.875
+multi-compartment (ModelDB 118986),2.0,worst combination of directions,93.75
+multi-compartment (ModelDB 118986),3.0,one conductance at a time,96.875
+multi-compartment (ModelDB 118986),3.0,"joint draws, median",100.0
+multi-compartment (ModelDB 118986),3.0,"joint draws, 5th percentile",93.5938
+multi-compartment (ModelDB 118986),3.0,worst combination of directions,84.375
+multi-compartment (ModelDB 118986),4.0,one conductance at a time,84.375
+multi-compartment (ModelDB 118986),4.0,"joint draws, median",98.4375
+multi-compartment (ModelDB 118986),4.0,"joint draws, 5th percentile",84.375
+multi-compartment (ModelDB 118986),4.0,worst combination of directions,78.125
+multi-compartment (ModelDB 118986),5.0,one conductance at a time,78.125
+multi-compartment (ModelDB 118986),5.0,"joint draws, median",96.875
+multi-compartment (ModelDB 118986),5.0,"joint draws, 5th percentile",81.0938
+multi-compartment (ModelDB 118986),5.0,worst combination of directions,71.875
+multi-compartment (ModelDB 118986),6.0,one conductance at a time,78.125
+multi-compartment (ModelDB 118986),6.0,"joint draws, median",96.875
+multi-compartment (ModelDB 118986),6.0,"joint draws, 5th percentile",78.125
+multi-compartment (ModelDB 118986),6.0,worst combination of directions,71.875
+multi-compartment (ModelDB 118986),7.000000000000001,one conductance at a time,71.875
+multi-compartment (ModelDB 118986),7.000000000000001,"joint draws, median",87.5
+multi-compartment (ModelDB 118986),7.000000000000001,"joint draws, 5th percentile",75.0
+multi-compartment (ModelDB 118986),7.000000000000001,worst combination of directions,62.5
+multi-compartment (ModelDB 118986),8.0,one conductance at a time,71.875
+multi-compartment (ModelDB 118986),8.0,"joint draws, median",84.375
+multi-compartment (ModelDB 118986),8.0,"joint draws, 5th percentile",71.875
+multi-compartment (ModelDB 118986),8.0,worst combination of directions,53.125
+multi-compartment (ModelDB 118986),9.0,one conductance at a time,71.875
+multi-compartment (ModelDB 118986),9.0,"joint draws, median",84.375
+multi-compartment (ModelDB 118986),9.0,"joint draws, 5th percentile",71.875
+multi-compartment (ModelDB 118986),9.0,worst combination of directions,43.75
+multi-compartment (ModelDB 118986),10.0,one conductance at a time,65.625
+multi-compartment (ModelDB 118986),10.0,"joint draws, median",81.25
+multi-compartment (ModelDB 118986),10.0,"joint draws, 5th percentile",65.3125
+multi-compartment (ModelDB 118986),10.0,worst combination of directions,40.625
+multi-compartment (ModelDB 118986),11.0,one conductance at a time,50.0
+multi-compartment (ModelDB 118986),11.0,"joint draws, median",84.375
+multi-compartment (ModelDB 118986),11.0,"joint draws, 5th percentile",62.3438
+multi-compartment (ModelDB 118986),11.0,worst combination of directions,34.375
+multi-compartment (ModelDB 118986),12.0,one conductance at a time,46.875
+multi-compartment (ModelDB 118986),12.0,"joint draws, median",78.125
+multi-compartment (ModelDB 118986),12.0,"joint draws, 5th percentile",50.0
+multi-compartment (ModelDB 118986),12.0,worst combination of directions,31.25
+multi-compartment (ModelDB 118986),13.0,one conductance at a time,43.75
+multi-compartment (ModelDB 118986),13.0,"joint draws, median",78.125
+multi-compartment (ModelDB 118986),13.0,"joint draws, 5th percentile",46.875
+multi-compartment (ModelDB 118986),13.0,worst combination of directions,18.75
+multi-compartment (ModelDB 118986),14.000000000000002,one conductance at a time,37.5
+multi-compartment (ModelDB 118986),14.000000000000002,"joint draws, median",75.0
+multi-compartment (ModelDB 118986),14.000000000000002,"joint draws, 5th percentile",37.3438
+multi-compartment (ModelDB 118986),14.000000000000002,worst combination of directions,15.625
+multi-compartment (ModelDB 118986),15.0,one conductance at a time,34.375
+multi-compartment (ModelDB 118986),15.0,"joint draws, median",76.5625
+multi-compartment (ModelDB 118986),15.0,"joint draws, 5th percentile",37.1875
+multi-compartment (ModelDB 118986),15.0,worst combination of directions,3.125
+multi-compartment (ModelDB 118986),16.0,one conductance at a time,31.25
+multi-compartment (ModelDB 118986),16.0,"joint draws, median",70.3125
+multi-compartment (ModelDB 118986),16.0,"joint draws, 5th percentile",31.0938
+multi-compartment (ModelDB 118986),16.0,worst combination of directions,3.125
+multi-compartment (ModelDB 118986),17.0,one conductance at a time,28.125
+multi-compartment (ModelDB 118986),17.0,"joint draws, median",75.0
+multi-compartment (ModelDB 118986),17.0,"joint draws, 5th percentile",34.375
+multi-compartment (ModelDB 118986),17.0,worst combination of directions,0.0
+multi-compartment (ModelDB 118986),18.0,one conductance at a time,18.75
+multi-compartment (ModelDB 118986),18.0,"joint draws, median",78.125
+multi-compartment (ModelDB 118986),18.0,"joint draws, 5th percentile",9.375
+multi-compartment (ModelDB 118986),18.0,worst combination of directions,-12.5
+multi-compartment (ModelDB 118986),19.0,one conductance at a time,9.375
+multi-compartment (ModelDB 118986),19.0,"joint draws, median",62.5
+multi-compartment (ModelDB 118986),19.0,"joint draws, 5th percentile",15.3125
+multi-compartment (ModelDB 118986),19.0,worst combination of directions,-15.625
+multi-compartment (ModelDB 118986),20.0,one conductance at a time,6.25
+multi-compartment (ModelDB 118986),20.0,"joint draws, median",71.875
+multi-compartment (ModelDB 118986),20.0,"joint draws, 5th percentile",20.9375
+multi-compartment (ModelDB 118986),20.0,worst combination of directions,-21.875
+single-compartment differentiable,1.0,one conductance at a time,88.9908
+single-compartment differentiable,1.0,"joint draws, median",97.9358
+single-compartment differentiable,1.0,"joint draws, 5th percentile",94.4954
+single-compartment differentiable,1.0,worst combination of directions,88.9908
+single-compartment differentiable,2.0,one conductance at a time,88.9908
+single-compartment differentiable,2.0,"joint draws, median",96.3303
+single-compartment differentiable,2.0,"joint draws, 5th percentile",90.8257
+single-compartment differentiable,2.0,worst combination of directions,76.1468
+single-compartment differentiable,3.0,one conductance at a time,87.156
+single-compartment differentiable,3.0,"joint draws, median",94.4954
+single-compartment differentiable,3.0,"joint draws, 5th percentile",86.6972
+single-compartment differentiable,3.0,worst combination of directions,76.1468
+single-compartment differentiable,4.0,one conductance at a time,79.8165
+single-compartment differentiable,4.0,"joint draws, median",91.7431
+single-compartment differentiable,4.0,"joint draws, 5th percentile",79.8165
+single-compartment differentiable,4.0,worst combination of directions,72.9358
+single-compartment differentiable,5.0,one conductance at a time,71.1009
+single-compartment differentiable,5.0,"joint draws, median",90.8257
+single-compartment differentiable,5.0,"joint draws, 5th percentile",77.0183
+single-compartment differentiable,5.0,worst combination of directions,66.9725
+single-compartment differentiable,6.0,one conductance at a time,60.0917
+single-compartment differentiable,6.0,"joint draws, median",89.2202
+single-compartment differentiable,6.0,"joint draws, 5th percentile",70.6422
+single-compartment differentiable,6.0,worst combination of directions,53.6697
+single-compartment differentiable,7.000000000000001,one conductance at a time,54.1284
+single-compartment differentiable,7.000000000000001,"joint draws, median",87.6147
+single-compartment differentiable,7.000000000000001,"joint draws, 5th percentile",62.3853
+single-compartment differentiable,7.000000000000001,worst combination of directions,45.8716
+single-compartment differentiable,8.0,one conductance at a time,38.5321
+single-compartment differentiable,8.0,"joint draws, median",82.1101
+single-compartment differentiable,8.0,"joint draws, 5th percentile",52.2936
+single-compartment differentiable,8.0,worst combination of directions,28.4404
+single-compartment differentiable,9.0,one conductance at a time,19.7248
+single-compartment differentiable,9.0,"joint draws, median",80.7339
+single-compartment differentiable,9.0,"joint draws, 5th percentile",36.2156
+single-compartment differentiable,9.0,worst combination of directions,17.4312
+single-compartment differentiable,10.0,one conductance at a time,-16.9725
+single-compartment differentiable,10.0,"joint draws, median",79.8165
+single-compartment differentiable,10.0,"joint draws, 5th percentile",22.8899
+single-compartment differentiable,10.0,worst combination of directions,-26.6055
+single-compartment differentiable,11.0,one conductance at a time,-85.7798
+single-compartment differentiable,11.0,"joint draws, median",79.3578
+single-compartment differentiable,11.0,"joint draws, 5th percentile",-8.2798
+single-compartment differentiable,11.0,worst combination of directions,-86.6972
+single-compartment differentiable,12.0,one conductance at a time,-90.367
+single-compartment differentiable,12.0,"joint draws, median",72.4771
+single-compartment differentiable,12.0,"joint draws, 5th percentile",-79.8165
+single-compartment differentiable,12.0,worst combination of directions,-91.2844
+single-compartment differentiable,13.0,one conductance at a time,-94.4954
+single-compartment differentiable,13.0,"joint draws, median",71.5596
+single-compartment differentiable,13.0,"joint draws, 5th percentile",-90.367
+single-compartment differentiable,13.0,worst combination of directions,-94.9541
+single-compartment differentiable,14.000000000000002,one conductance at a time,-94.9541
+single-compartment differentiable,14.000000000000002,"joint draws, median",72.0183
+single-compartment differentiable,14.000000000000002,"joint draws, 5th percentile",-91.2844
+single-compartment differentiable,14.000000000000002,worst combination of directions,-94.9541
+single-compartment differentiable,15.0,one conductance at a time,-95.8716
+single-compartment differentiable,15.0,"joint draws, median",71.1009
+single-compartment differentiable,15.0,"joint draws, 5th percentile",-94.9541
+single-compartment differentiable,15.0,worst combination of directions,-95.8716
+single-compartment differentiable,16.0,one conductance at a time,-97.2477
+single-compartment differentiable,16.0,"joint draws, median",70.6422
+single-compartment differentiable,16.0,"joint draws, 5th percentile",-94.9541
+single-compartment differentiable,16.0,worst combination of directions,-97.2477
+single-compartment differentiable,17.0,one conductance at a time,-100.0
+single-compartment differentiable,17.0,"joint draws, median",69.2661
+single-compartment differentiable,17.0,"joint draws, 5th percentile",-96.3303
+single-compartment differentiable,17.0,worst combination of directions,-100.0
+single-compartment differentiable,18.0,one conductance at a time,-100.0
+single-compartment differentiable,18.0,"joint draws, median",68.578
+single-compartment differentiable,18.0,"joint draws, 5th percentile",-97.2477
+single-compartment differentiable,18.0,worst combination of directions,-100.0
+single-compartment differentiable,19.0,one conductance at a time,-100.0
+single-compartment differentiable,19.0,"joint draws, median",68.578
+single-compartment differentiable,19.0,"joint draws, 5th percentile",-99.0826
+single-compartment differentiable,19.0,worst combination of directions,-100.0
+single-compartment differentiable,20.0,one conductance at a time,-100.0
+single-compartment differentiable,20.0,"joint draws, median",67.8899
+single-compartment differentiable,20.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,20.0,worst combination of directions,-100.0
+single-compartment differentiable,21.0,one conductance at a time,-100.0
+single-compartment differentiable,21.0,"joint draws, median",65.5963
+single-compartment differentiable,21.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,21.0,worst combination of directions,-100.4587
+single-compartment differentiable,22.0,one conductance at a time,-100.0
+single-compartment differentiable,22.0,"joint draws, median",61.4679
+single-compartment differentiable,22.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,22.0,worst combination of directions,-100.4587
+single-compartment differentiable,23.0,one conductance at a time,-100.0
+single-compartment differentiable,23.0,"joint draws, median",59.1743
+single-compartment differentiable,23.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,23.0,worst combination of directions,-100.4587
+single-compartment differentiable,24.0,one conductance at a time,-99.5413
+single-compartment differentiable,24.0,"joint draws, median",58.7156
+single-compartment differentiable,24.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,24.0,worst combination of directions,-100.4587
+single-compartment differentiable,25.0,one conductance at a time,-99.5413
+single-compartment differentiable,25.0,"joint draws, median",58.7156
+single-compartment differentiable,25.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,25.0,worst combination of directions,-100.4587
+single-compartment differentiable,26.0,one conductance at a time,-99.5413
+single-compartment differentiable,26.0,"joint draws, median",57.3394
+single-compartment differentiable,26.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,26.0,worst combination of directions,-100.4587
+single-compartment differentiable,27.0,one conductance at a time,-99.5413
+single-compartment differentiable,27.0,"joint draws, median",56.8807
+single-compartment differentiable,27.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,27.0,worst combination of directions,-100.4587
+single-compartment differentiable,28.000000000000004,one conductance at a time,-99.5413
+single-compartment differentiable,28.000000000000004,"joint draws, median",56.422
+single-compartment differentiable,28.000000000000004,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,28.000000000000004,worst combination of directions,-100.4587
+single-compartment differentiable,28.999999999999996,one conductance at a time,-99.5413
+single-compartment differentiable,28.999999999999996,"joint draws, median",56.422
+single-compartment differentiable,28.999999999999996,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,28.999999999999996,worst combination of directions,-100.4587
+single-compartment differentiable,30.0,one conductance at a time,-99.5413
+single-compartment differentiable,30.0,"joint draws, median",56.422
+single-compartment differentiable,30.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,30.0,worst combination of directions,-100.4587
+single-compartment differentiable,31.0,one conductance at a time,-99.5413
+single-compartment differentiable,31.0,"joint draws, median",53.8991
+single-compartment differentiable,31.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,31.0,worst combination of directions,-100.4587
+single-compartment differentiable,32.0,one conductance at a time,-99.5413
+single-compartment differentiable,32.0,"joint draws, median",55.2752
+single-compartment differentiable,32.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,32.0,worst combination of directions,-100.4587
+single-compartment differentiable,33.0,one conductance at a time,-100.0
+single-compartment differentiable,33.0,"joint draws, median",53.6697
+single-compartment differentiable,33.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,33.0,worst combination of directions,-100.4587
+single-compartment differentiable,34.0,one conductance at a time,-100.0
+single-compartment differentiable,34.0,"joint draws, median",53.6697
+single-compartment differentiable,34.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,34.0,worst combination of directions,-100.4587
+single-compartment differentiable,35.0,one conductance at a time,-100.0
+single-compartment differentiable,35.0,"joint draws, median",53.6697
+single-compartment differentiable,35.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,35.0,worst combination of directions,-100.4587
+single-compartment differentiable,36.0,one conductance at a time,-100.0
+single-compartment differentiable,36.0,"joint draws, median",53.6697
+single-compartment differentiable,36.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,36.0,worst combination of directions,-100.4587
+single-compartment differentiable,37.0,one conductance at a time,-100.0
+single-compartment differentiable,37.0,"joint draws, median",52.2936
+single-compartment differentiable,37.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,37.0,worst combination of directions,-100.4587
+single-compartment differentiable,38.0,one conductance at a time,-100.0
+single-compartment differentiable,38.0,"joint draws, median",52.2936
+single-compartment differentiable,38.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,38.0,worst combination of directions,-100.4587
+single-compartment differentiable,39.0,one conductance at a time,-100.4587
+single-compartment differentiable,39.0,"joint draws, median",52.2936
+single-compartment differentiable,39.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,39.0,worst combination of directions,-100.4587
+single-compartment differentiable,40.0,one conductance at a time,-100.4587
+single-compartment differentiable,40.0,"joint draws, median",52.2936
+single-compartment differentiable,40.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,40.0,worst combination of directions,-100.4587
+single-compartment differentiable,41.0,one conductance at a time,-100.4587
+single-compartment differentiable,41.0,"joint draws, median",52.2936
+single-compartment differentiable,41.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,41.0,worst combination of directions,-100.9174
+single-compartment differentiable,42.0,one conductance at a time,-100.4587
+single-compartment differentiable,42.0,"joint draws, median",52.2936
+single-compartment differentiable,42.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,42.0,worst combination of directions,-100.9174
+single-compartment differentiable,43.0,one conductance at a time,-100.4587
+single-compartment differentiable,43.0,"joint draws, median",44.0367
+single-compartment differentiable,43.0,"joint draws, 5th percentile",-100.0
+single-compartment differentiable,43.0,worst combination of directions,-100.9174
+single-compartment differentiable,44.0,one conductance at a time,-100.4587
+single-compartment differentiable,44.0,"joint draws, median",44.0367
+single-compartment differentiable,44.0,"joint draws, 5th percentile",-100.4587
+single-compartment differentiable,44.0,worst combination of directions,-100.9174
+single-compartment differentiable,45.0,one conductance at a time,-100.9174
+single-compartment differentiable,45.0,"joint draws, median",43.1193
+single-compartment differentiable,45.0,"joint draws, 5th percentile",-100.4587
+single-compartment differentiable,45.0,worst combination of directions,-101.3761
+single-compartment differentiable,46.0,one conductance at a time,-100.9174
+single-compartment differentiable,46.0,"joint draws, median",43.1193
+single-compartment differentiable,46.0,"joint draws, 5th percentile",-100.4587
+single-compartment differentiable,46.0,worst combination of directions,-101.3761
+single-compartment differentiable,47.0,one conductance at a time,-100.9174
+single-compartment differentiable,47.0,"joint draws, median",43.1193
+single-compartment differentiable,47.0,"joint draws, 5th percentile",-100.4587
+single-compartment differentiable,47.0,worst combination of directions,-101.3761
+single-compartment differentiable,48.0,one conductance at a time,-100.9174
+single-compartment differentiable,48.0,"joint draws, median",43.1193
+single-compartment differentiable,48.0,"joint draws, 5th percentile",-100.4587
+single-compartment differentiable,48.0,worst combination of directions,-101.3761
+single-compartment differentiable,49.0,one conductance at a time,-101.3761
+single-compartment differentiable,49.0,"joint draws, median",41.055
+single-compartment differentiable,49.0,"joint draws, 5th percentile",-100.9174
+single-compartment differentiable,49.0,worst combination of directions,-101.3761
+single-compartment differentiable,50.0,one conductance at a time,-101.3761
+single-compartment differentiable,50.0,"joint draws, median",41.2844
+single-compartment differentiable,50.0,"joint draws, 5th percentile",-100.9174
+single-compartment differentiable,50.0,worst combination of directions,-101.3761

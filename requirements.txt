@@ -1,0 +1,21 @@
+# Redrawing the figures and Table 1 from the data in this repository needs only these two.
+numpy>=1.24
+matplotlib>=3.7
+
+# The differentiable-model experiments and Figure 11 also need PyTorch. The published
+# runs used 2.10.0 built against CUDA 12.8.
+# torch>=1.9
+
+# The NEURON experiments need NEURON (the published runs used 9.0.1).
+# neuron>=8.2
+
+# wo7_dtw_denominator.py needs a dynamic-time-warping implementation.
+# dtaidistance>=2.3
+
+# wo9_task11_slow_inactivation.py uses SciPy.
+# scipy>=1.10
+
+# Some experiment scripts show progress bars.
+# tqdm
+
+# env/ holds the exact environments the published runs used.

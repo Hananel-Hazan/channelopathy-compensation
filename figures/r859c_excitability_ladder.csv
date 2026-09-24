@@ -1,0 +1,36 @@
+injected_current_pA,spikes_wild_type,spikes_R859C,difference_variant_minus_wt,abs_difference,region,spikes_wild_type_upward_rule,spikes_R859C_upward_rule
+20,0,0,0,0,silent in both,0,0
+30,0,0,0,0,silent in both,0,0
+40,0,0,0,0,silent in both,0,0
+50,0,0,0,0,silent in both,0,0
+60,0,0,0,0,silent in both,0,0
+70,0,0,0,0,silent in both,0,0
+80,0,0,0,0,silent in both,0,0
+90,0,0,0,0,silent in both,0,0
+100,0,0,0,0,silent in both,0,0
+110,0,0,0,0,silent in both,0,0
+120,0,0,0,0,silent in both,0,0
+130,0,0,0,0,silent in both,0,0
+140,1,0,-1,1,less excitable,1,0
+150,7,1,-6,6,less excitable,7,1
+160,11,2,-9,9,less excitable,11,2
+170,14,12,-2,2,less excitable,14,12
+180,16,14,-2,2,less excitable,16,14
+190,17,16,-1,1,less excitable,17,16
+200,19,18,-1,1,less excitable,19,18
+210,20,19,-1,1,less excitable,20,19
+220,21,21,0,0,indistinguishable,21,21
+230,22,22,0,0,indistinguishable,22,22
+240,23,23,0,0,indistinguishable,23,23
+250,24,24,0,0,indistinguishable,24,24
+260,24,25,1,1,more excitable,24,25
+270,25,26,1,1,more excitable,25,26
+280,26,27,1,1,more excitable,26,27
+290,27,28,1,1,more excitable,27,28
+300,27,28,1,1,more excitable,27,28
+310,28,29,1,1,more excitable,28,29
+320,28,30,2,2,more excitable,28,30
+330,29,30,1,1,more excitable,29,30
+340,29,31,2,2,more excitable,29,31
+350,30,32,2,2,more excitable,30,32
+360,30,32,2,2,more excitable,30,32

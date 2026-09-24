@@ -1,0 +1,10 @@
+arm,spike,column_px,digitised_ms,uncertainty_ms,simulated_ms,residual_ms,residual_px,within,located_by
+variant,1,104,11.03,1.96,10.788,0.24,0.2,True,taller of the two strokes in the first feature
+reference,1,105,12.25,1.96,11.901,0.35,0.29,True,shorter of the two strokes in the first feature
+variant,2,133,46.57,1.96,46.391,0.18,0.14,True,first column of the rising stroke at the 0 mV line
+variant,3,175,98.04,1.96,98.81,-0.77,-0.63,True,first column of the rising stroke at the 0 mV line
+variant,4,219,151.96,1.96,152.427,-0.47,-0.38,True,first column of the rising stroke at the 0 mV line
+variant,5,263,205.88,1.96,206.47,-0.59,-0.48,True,first column of the rising stroke at the 0 mV line
+variant,6,307,259.8,1.96,260.113,-0.31,-0.25,True,first column of the rising stroke at the 0 mV line
+variant,7,351,313.73,1.96,313.83,-0.1,-0.09,True,first column of the rising stroke at the 0 mV line
+variant,8,394,366.42,1.96,367.738,-1.32,-1.07,True,first column of the rising stroke at the 0 mV line

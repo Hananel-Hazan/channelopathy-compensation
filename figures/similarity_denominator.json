@@ -1,0 +1,15 @@
+{
+  "measure": "Spike Count",
+  "quantity": "observation_summary_statistics_MT['Spike Count WT delta'].sum()",
+  "definition": "summed |wild-type - untreated variant| action-potential count over all 35 injected-current levels",
+  "value_pipeline_detector": 38,
+  "value_upward_crossing_rule": 38,
+  "computed_from_search_ladders": 37,
+  "wild_type_total_spikes": 498,
+  "variant_total_spikes": 490,
+  "detector_source": "R859C search pipeline spike detector (find_spikes above)",
+  "traces": {
+    "WT": "Neuron_Test/R859C/APthreshold WT-2005 - log every 10th data point.txt",
+    "MT": "Neuron_Test/R859C/APthreshold R859C - log every 10th data point.txt"
+  }
+}

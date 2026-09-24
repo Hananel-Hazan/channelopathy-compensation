@@ -1,0 +1,3 @@
+arm,spikes_during_step,firing_rate_Hz,first_spike_latency_after_onset_ms,peak_mV,resting_mV,spike_times_ms
+reference (wild type),1,2.5,6.901,38.701,-65.0,11.901
+variant (Kv7.2 D212G),8,20.0,5.788,39.131,-65.0,10.788; 46.391; 98.810; 152.427; 206.470; 260.113; 313.830; 367.738

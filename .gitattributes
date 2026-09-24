@@ -1,0 +1,11 @@
+# Store every file exactly as committed. Many files carry CRLF line endings (the CSV
+# files written with Python's csv module, and the three .hoc files in
+# Neuron_Test/R859C/), and the figure scripts are checked by regenerating these files
+# byte for byte, so no line-ending conversion may happen on any platform.
+* -text
+
+# Binary formats, so that diffs and merges never try to treat them as text.
+*.pdf  binary
+*.npz  binary
+*.npy  binary
+*.pbz2 binary

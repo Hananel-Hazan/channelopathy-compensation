@@ -1,0 +1,42 @@
+{
+ "host": "BioHours",
+ "stim_amp_nA": 0.47,
+ "stim_dur_ms": 400.0,
+ "tstop_ms": 500.0,
+ "gkm": 0.006,
+ "arms": {
+  "wild type": {
+   "spikes_during_step": 1,
+   "firing_rate_Hz": 2.5,
+   "first_spike_latency_ms": 6.900552260612034,
+   "mean_isi_ms": null,
+   "last_isi_ms": null,
+   "resting_v_mV": -65.0,
+   "peak_v_mV": 38.701231062058525,
+   "spike_times_ms": [
+    11.900552260612034
+   ]
+  },
+  "mutant (Kv7.2 D212G)": {
+   "spikes_during_step": 8,
+   "firing_rate_Hz": 20.0,
+   "first_spike_latency_ms": 5.78818890789603,
+   "mean_isi_ms": 50.9928256444577,
+   "last_isi_ms": 53.90749963332786,
+   "resting_v_mV": -65.0,
+   "peak_v_mV": 39.13128951796679,
+   "spike_times_ms": [
+    10.78818890789603,
+    46.39096169787391,
+    98.80959140567498,
+    152.42703086562878,
+    206.47044674091805,
+    260.11264497087814,
+    313.8304687857721,
+    367.73796841909996
+   ]
+  }
+ },
+ "mutant_minus_wildtype_spikes": 7,
+ "mutant_over_wildtype_rate": 8.0
+}

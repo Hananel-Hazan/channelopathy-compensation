@@ -1,0 +1,14 @@
+panel,row,series,value,units,id
+a,"NEURON, one processor core",non-differentiable,1.1,candidate parameter sets per second,neuron_one_core
+a,"NEURON, 72-core node",non-differentiable,16.4,candidate parameter sets per second,neuron_72_core_node
+a,"differentiable, batched, RTX 2070",differentiable,543.0,candidate parameter sets per second,rtx2070_batched_unfused
+a,"differentiable, fused, RTX 2070",differentiable,34279.4,candidate parameter sets per second,rtx2070_batched_fused
+a,"differentiable, fused, RTX 4070 Ti",differentiable,63649.2,candidate parameter sets per second,rtx4070ti_batched_fused
+b,sodium conductance held at 140,"gradient descent, voltage MSE loss",94.23,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,sodium conductance held at 140,"direct search, same box",96.15,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,potassium conductance held at 20,"gradient descent, voltage MSE loss",-87.5,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,potassium conductance held at 20,"direct search, same box",93.97,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,leak conductance held at 0.30,"gradient descent, voltage MSE loss",-123.38,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,leak conductance held at 0.30,"direct search, same box",95.02,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,sodium activation shifted +6.1 mV (R859C),"gradient descent, voltage MSE loss",1.74,% of wild-type firing pattern restored,gradient_descent_vs_direct_search
+b,sodium activation shifted +6.1 mV (R859C),"direct search, same box",97.6,% of wild-type firing pattern restored,gradient_descent_vs_direct_search

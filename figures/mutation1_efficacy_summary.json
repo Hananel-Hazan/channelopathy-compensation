@@ -1,0 +1,60 @@
+{
+  "criteria_present": {
+    "Spike Count": {
+      "groups": 37,
+      "tests": 1437450,
+      "MT_WT": 1050,
+      "MT_MT": 37,
+      "interventions": 38850
+    },
+    "Dynamic Time Warping": {
+      "groups": 70,
+      "tests": 560230,
+      "MT_WT": 70,
+      "MT_MT": 70,
+      "interventions": 4900
+    }
+  },
+  "spike_count_denominator_38": {
+    "denominator": "38 (re-measured, pipeline detector)",
+    "tests_simulated": 1437450,
+    "tests_plotted": 1394929,
+    "plotted_fraction_pct": 97.0419,
+    "max_similarity_pct": 94.7368,
+    "count_at_100pct": 0,
+    "count_ge_97pct": 0,
+    "count_ge_85pct": 38474,
+    "count_ge_60pct": 178232,
+    "count_ge_60pct_share": 12.3992,
+    "median_plotted_pct": 10.5263,
+    "p10_plotted_pct": -63.1579,
+    "p25_plotted_pct": -18.4211,
+    "p75_plotted_pct": 34.2105,
+    "p90_plotted_pct": 65.7895,
+    "p99_plotted_pct": 92.1053,
+    "min_similarity_pct": -163.1579,
+    "count_below_floor": 42521
+  },
+  "spike_count_denominator_37": {
+    "denominator": "37 (computed from the search ladders)",
+    "tests_simulated": 1437450,
+    "tests_plotted": 1375599,
+    "plotted_fraction_pct": 95.6972,
+    "max_similarity_pct": 94.5946,
+    "count_at_100pct": 0,
+    "count_ge_97pct": 0,
+    "count_ge_85pct": 38474,
+    "count_ge_60pct": 165252,
+    "count_ge_60pct_share": 11.4962,
+    "median_plotted_pct": 8.1081,
+    "p10_plotted_pct": -62.1622,
+    "p25_plotted_pct": -18.9189,
+    "p75_plotted_pct": 35.1351,
+    "p90_plotted_pct": 64.8649,
+    "p99_plotted_pct": 91.8919,
+    "min_similarity_pct": -170.2703,
+    "count_below_floor": 61851
+  },
+  "dtw_tests_simulated": 560230,
+  "source_file": "external_data/sumary_explor_result100K.mutationFix.pbz2"
+}

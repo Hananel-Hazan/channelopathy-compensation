@@ -1,0 +1,373 @@
+{
+  "host": "BioHours",
+  "gpu": "NVIDIA GeForce RTX 2070",
+  "budget_per_repeat": 1000000,
+  "repeats": 8,
+  "seed0": 20260826,
+  "margin_pct": 5.0,
+  "box_lo": [
+    0.024,
+    0.0072,
+    0.0006
+  ],
+  "box_hi": [
+    600000.0,
+    180000.0,
+    1.5
+  ],
+  "wt_spikes_total": 470,
+  "variants": {
+    "sodium activation +6.1 mV (R859C, ModelDB 87585)": {
+      "d_untreated": 459,
+      "known_best_pct": 97.60348583877996,
+      "target_pct": 92.60348583877996,
+      "schemes": {
+        "uniform": {
+          "first_hit_per_seed": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "viable_pct_per_seed": [
+            5.6928,
+            5.7135,
+            5.6937,
+            5.6907,
+            5.6878,
+            5.6819,
+            5.6968,
+            5.7433
+          ],
+          "best_reached_per_seed": [
+            2.1786,
+            2.1786,
+            2.1786,
+            2.1786,
+            2.1786,
+            2.1786,
+            2.1786,
+            59.2593
+          ],
+          "n_reached": 0,
+          "n_repeats": 8,
+          "first_hit_median": null,
+          "first_hit_min": null,
+          "first_hit_max": null,
+          "viable_median_pct": 5.69325,
+          "viable_min_pct": 5.6819,
+          "viable_max_pct": 5.7433
+        },
+        "loguniform": {
+          "first_hit_per_seed": [
+            1303,
+            379,
+            2654,
+            6032,
+            12668,
+            5881,
+            2443,
+            9025
+          ],
+          "viable_pct_per_seed": [
+            38.1377,
+            38.2622,
+            38.3069,
+            38.1835,
+            38.1348,
+            38.0589,
+            38.1752,
+            38.1515
+          ],
+          "best_reached_per_seed": [
+            97.6035,
+            97.6035,
+            97.6035,
+            97.6035,
+            97.6035,
+            97.6035,
+            97.6035,
+            97.6035
+          ],
+          "n_reached": 8,
+          "n_repeats": 8,
+          "first_hit_median": 4267.5,
+          "first_hit_min": 379,
+          "first_hit_max": 12668,
+          "viable_median_pct": 38.163349999999994,
+          "viable_min_pct": 38.0589,
+          "viable_max_pct": 38.3069
+        }
+      },
+      "seconds": 841.5
+    },
+    "potassium activation +4.7 mV (Kv7.2 D212G, ModelDB 118986)": {
+      "d_untreated": 308,
+      "known_best_pct": 99.35064935064936,
+      "target_pct": 94.35064935064936,
+      "schemes": {
+        "uniform": {
+          "first_hit_per_seed": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "viable_pct_per_seed": [
+            17.0505,
+            16.9891,
+            16.9795,
+            17.0158,
+            17.0412,
+            16.9685,
+            16.9223,
+            17.031
+          ],
+          "best_reached_per_seed": [
+            42.8571,
+            -4.8701,
+            -23.7013,
+            56.4935,
+            -4.2208,
+            46.7532,
+            -26.9481,
+            -41.5584
+          ],
+          "n_reached": 0,
+          "n_repeats": 8,
+          "first_hit_median": null,
+          "first_hit_min": null,
+          "first_hit_max": null,
+          "viable_median_pct": 17.002449999999996,
+          "viable_min_pct": 16.9223,
+          "viable_max_pct": 17.0505
+        },
+        "loguniform": {
+          "first_hit_per_seed": [
+            9212,
+            16360,
+            559,
+            8627,
+            3018,
+            25557,
+            8686,
+            7318
+          ],
+          "viable_pct_per_seed": [
+            42.4129,
+            42.5165,
+            42.5286,
+            42.4491,
+            42.398,
+            42.3043,
+            42.5179,
+            42.4465
+          ],
+          "best_reached_per_seed": [
+            99.3506,
+            99.3506,
+            99.3506,
+            99.3506,
+            99.3506,
+            99.3506,
+            99.3506,
+            99.3506
+          ],
+          "n_reached": 8,
+          "n_repeats": 8,
+          "first_hit_median": 8656.5,
+          "first_hit_min": 559,
+          "first_hit_max": 25557,
+          "viable_median_pct": 42.4478,
+          "viable_min_pct": 42.3043,
+          "viable_max_pct": 42.5286
+        }
+      },
+      "seconds": 545.5
+    },
+    "potassium activation +9.4 mV (twice the measured shift)": {
+      "d_untreated": 420,
+      "known_best_pct": 99.04761904761905,
+      "target_pct": 94.04761904761905,
+      "schemes": {
+        "uniform": {
+          "first_hit_per_seed": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "viable_pct_per_seed": [
+            45.3875,
+            45.2975,
+            45.2257,
+            45.3009,
+            45.3423,
+            45.4505,
+            45.3525,
+            45.3435
+          ],
+          "best_reached_per_seed": [
+            15.9524,
+            24.7619,
+            43.3333,
+            30.0,
+            82.8571,
+            72.381,
+            75.9524,
+            85.0
+          ],
+          "n_reached": 0,
+          "n_repeats": 8,
+          "first_hit_median": null,
+          "first_hit_min": null,
+          "first_hit_max": null,
+          "viable_median_pct": 45.3429,
+          "viable_min_pct": 45.2257,
+          "viable_max_pct": 45.4505
+        },
+        "loguniform": {
+          "first_hit_per_seed": [
+            2650,
+            12932,
+            203,
+            5741,
+            278,
+            16243,
+            3160,
+            2103
+          ],
+          "viable_pct_per_seed": [
+            46.7232,
+            46.893,
+            46.8671,
+            46.7874,
+            46.7668,
+            46.6194,
+            46.8689,
+            46.7369
+          ],
+          "best_reached_per_seed": [
+            98.5714,
+            98.8095,
+            98.5714,
+            98.8095,
+            98.5714,
+            98.8095,
+            98.5714,
+            98.5714
+          ],
+          "n_reached": 8,
+          "n_repeats": 8,
+          "first_hit_median": 2905.0,
+          "first_hit_min": 203,
+          "first_hit_max": 16243,
+          "viable_median_pct": 46.7771,
+          "viable_min_pct": 46.6194,
+          "viable_max_pct": 46.893
+        }
+      },
+      "seconds": 548.6
+    },
+    "combined: sodium +6.1 mV and potassium +4.7 mV": {
+      "d_untreated": 127,
+      "known_best_pct": 95.2755905511811,
+      "target_pct": 90.2755905511811,
+      "schemes": {
+        "uniform": {
+          "first_hit_per_seed": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "viable_pct_per_seed": [
+            19.4407,
+            19.4137,
+            19.4042,
+            19.4218,
+            19.4324,
+            19.3908,
+            19.4207,
+            19.4196
+          ],
+          "best_reached_per_seed": [
+            -204.7244,
+            -253.5433,
+            3.1496,
+            -251.9685,
+            -31.4961,
+            -253.5433,
+            -253.5433,
+            -158.2677
+          ],
+          "n_reached": 0,
+          "n_repeats": 8,
+          "first_hit_median": null,
+          "first_hit_min": null,
+          "first_hit_max": null,
+          "viable_median_pct": 19.42015,
+          "viable_min_pct": 19.3908,
+          "viable_max_pct": 19.4407
+        },
+        "loguniform": {
+          "first_hit_per_seed": [
+            109582,
+            38610,
+            77880,
+            231941,
+            10963,
+            2433,
+            161255,
+            14397
+          ],
+          "viable_pct_per_seed": [
+            42.7969,
+            42.8915,
+            42.9457,
+            42.827,
+            42.7579,
+            42.6667,
+            42.8282,
+            42.8005
+          ],
+          "best_reached_per_seed": [
+            95.2756,
+            92.9134,
+            95.2756,
+            94.4882,
+            95.2756,
+            95.2756,
+            94.4882,
+            93.7008
+          ],
+          "n_reached": 8,
+          "n_repeats": 8,
+          "first_hit_median": 58245.0,
+          "first_hit_min": 2433,
+          "first_hit_max": 231941,
+          "viable_median_pct": 42.81375,
+          "viable_min_pct": 42.6667,
+          "viable_max_pct": 42.945699999999995
+        }
+      },
+      "seconds": 546.3
+    }
+  }
+}

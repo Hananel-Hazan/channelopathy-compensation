@@ -1,0 +1,35 @@
+{
+  "regenerated_with": {
+    "dt_ms": 0.006666666666666667,
+    "injected_current": 8.0,
+    "n_steps": 1500,
+    "span_ms": 10.0
+  },
+  "file_defaults": {
+    "dt_ms": 0.05,
+    "injected_current": 7.0,
+    "span_ms": 75.0,
+    "action_potentials": 5
+  },
+  "reference_conductances_mS_per_cm2": {
+    "g_Na": 120.0,
+    "g_K": 36.0,
+    "g_l": 0.03
+  },
+  "fitted_conductances_mS_per_cm2": {
+    "g_Na": 140.0,
+    "g_K": 39.678,
+    "g_l": 0.155
+  },
+  "reference_peak_mV": 39.6507,
+  "fitted_peak_mV": 40.224,
+  "reference_action_potentials": 1,
+  "n_range_reference": [
+    0.3177,
+    0.7552
+  ],
+  "hh_class_source_lines": [
+    86,
+    183
+  ]
+}

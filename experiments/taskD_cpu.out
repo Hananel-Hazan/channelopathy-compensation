@@ -1,0 +1,8 @@
+device: cpu
+  torch threads: 1 (one core)
+one candidate parameter set = 35 currents x 30000 steps at dt=0.01 ms (= 300 ms each)
+
+ param sets  batch elems    seconds  sets/second  sim-ms/second
+          1           35      11.49       0.0871            914
+          4          140      11.57       0.3458           3631
+         16          560      12.72       1.2580          13209

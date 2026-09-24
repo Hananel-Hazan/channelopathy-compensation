@@ -1,0 +1,21 @@
+reference: untreated variant loss 1574.2; wild type against itself 0
+
+optimizer      lr_K   lr_leak  plateau   final K  final leak   final loss  gap closed   neg?  step shape
+sgd           0.003     6e-05     1499   40.3425     0.18142       0.2803    99.9822%   True   grad-prop (cv=2.71)
+asgd          0.003     6e-05     1499   40.3108     0.17792      0.28521    99.9819%   True   grad-prop (cv=2.69)
+adam            0.3     0.006     1499   40.3040     0.17597      0.29507    99.9813%   True   grad-prop (cv=3.20)
+adam_ams         10       0.2      771   59.7784     2.48366       1054.7    33.0017%   True   grad-prop (cv=2.17)
+adadelta         30       0.6      613   40.6601     0.20199       2.3122    99.8531%  False   grad-prop (cv=0.95)
+adagrad           3      0.06     1499   39.9998     0.14437      0.37469    99.9762%   True   grad-prop (cv=7.94)
+rmsprop         0.1     0.002     1499   39.7347     0.12603       1.1914    99.9243%   True   grad-prop (cv=2.45)
+rprop            30       0.6      102   40.4423     0.19261      0.27022    99.9828%   True   grad-prop (cv=5.45)
+
+--- spread across the 8 of 8 optimizers that produced a finite result ---
+final potassium : 39.7347 .. 59.7784   mean 42.6966   sd 6.4616   full spread 46.94% of the mean
+final leak      : 0.12603 .. 2.48366   mean 0.46050   sd 0.76504   full spread 511.97% of the mean
+final loss      : 0.27022 .. 1054.7
+gap closed      : 33.0017% .. 99.9828%
+
+wild-type potassium is 36 and wild-type leak is 0.03, given for reference only:
+the compensating point need not equal the wild-type point, because sodium is held
+at the variant value.

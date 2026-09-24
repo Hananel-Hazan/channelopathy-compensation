@@ -1,0 +1,18 @@
+table,pathway,hardware,implementation,candidate_parameter_sets_per_second,spread_min_max_across_5_launches,source
+throughput,Non-differentiable (NEURON),one processor core,—,1.1,,"NEURON single-core timing log of the R859C model (1.00 s per set); the single-core NEURON figure is 250,000 sets in 226,050 s"
+throughput,Non-differentiable (NEURON),72-core node,spike-count stage,16.4,,"R859C search log: 1,437,450 evaluations in the spike-count stage's 24 h 17 m"
+throughput,Non-differentiable (NEURON),72-core node,time-warping stage,16.9,,"same search log: 560,230 evaluations in 9 h 12 m"
+throughput,Differentiable,one processor core,unbatched (1 set at a time),0.089,,experiments/taskD_cpu_big.py (log: experiments/out_taskD_cpu_big_py.log)
+throughput,Differentiable,one processor core,"batched (1,024 sets)",20.8,,experiments/taskD_cpu_big.py (log: experiments/out_taskD_cpu_big_py.log)
+throughput,Differentiable,RTX 2070 (2018),"batched, unfused",542.9,542.8 – 543.0,"median of 5 launches at 262,144 sets per batch (first single run: 542.9)"
+throughput,Differentiable,RTX 2070 (2018),"batched, graph-captured",571.7,571.7 – 571.7,"median of 5 launches at 1,048,576 sets per batch (first single run: 571.7)"
+throughput,Differentiable,RTX 2070 (2018),"batched, fused",34279.4,"34,275 – 34,288","median of 5 launches at 262,144 sets per batch (first single run: 34,350)"
+throughput,Differentiable,RTX 4070 Ti (2023),"batched, unfused",2052.9,"2,046 – 2,057","median of 5 launches at 65,536 sets per batch, the peak (first single run: 2,044)"
+throughput,Differentiable,RTX 4070 Ti (2023),"batched, graph-captured",2805.6,"2,790 – 2,809","median of 5 launches at 16,384 sets per batch, the peak (first single run: 2,924)"
+throughput,Differentiable,RTX 4070 Ti (2023),"batched, fused",63649.2,"63,633 – 63,651","median of 5 launches at 1,048,576 sets per batch (first single run: 63,205)"
+throughput,Differentiable,RTX 4070 Ti (2023),"batched, fused, cache-resident batch",100443.4,"98,001 – 104,926","median of 5 launches at 16,384 sets per batch — the working set (17.5 MiB) fits the 48 MiB level-two cache (first single run: 107,013, above every one of the five repeats)"
+
+table,stage,hardware,memory_traffic_demanded_GB_per_s,device_bandwidth_measured_GB_per_s,share_of_device_bandwidth,source
+memory traffic,Before fusion,RTX 2070,412 – 420,393.6,105 % – 107 %,"measured at 65,536 and 262,144 sets per batch"
+memory traffic,After fusion,RTX 2070,51 – 64,393.6,13 % – 16 %,measured
+memory traffic,After fusion,RTX 4070 Ti,116,426.9,27 %,measured

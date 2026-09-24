@@ -1,0 +1,101 @@
+channelopathy-compensation
+==========================
+
+Code and data for "Computational framework for identifying ion channel
+mutation-compensating interventions", Hananel Hazan and Michael Levin,
+Allen Discovery Center at Tufts University.
+
+    Copyright 2026 Hananel Hazan
+
+This repository carries two licences, one for code and one for data.
+
+Code: Apache License 2.0 with the Tufts Rider (file LICENSE)
+    Every *.py, *.sh and *.yml file and requirements.txt is licensed under the
+    Apache License, Version 2.0, subject to the Tufts Open Source License Rider
+    v.1 - Academic Use Only, which restricts use to academic, non-commercial
+    research. Both are in the LICENSE file. Any license notice or attribution
+    required by the Apache License must also include the terms of that Rider.
+
+Data: Creative Commons Attribution 4.0 International (file LICENSE-DATA)
+    The following are licensed under CC BY 4.0:
+      - every *.csv, *.json, *.npz, *.npy, *.log and *.out file, and every
+        *.md table, under figures/ and experiments/;
+      - the images in mimic_cell_activity/fit_snapshots_2020-06-01/, and the
+        log excerpts in pipeline/r859c/logs_excerpt/;
+      - the archived voltage traces in Neuron_Test/R859C/ (the two
+        "APthreshold ... - log every 10th data point.txt" files);
+      - the two candidate databases and the run logs deposited on Zenodo
+        with this repository.
+
+The files derived from ModelDB accession 87585 (the *.hoc files in
+Neuron_Test/R859C/ and pipeline/r859c/, listed below) keep their original
+attribution. The
+third-party material listed below remains under the terms set by its own
+authors. Source files do not carry per-file licence headers; the two licence
+files at the root of the repository cover them as stated above.
+
+
+Third-party NEURON models: downloaded, not redistributed
+--------------------------------------------------------
+
+Two of the forward models used in the paper are third-party work published on
+ModelDB. Neither is included in this repository. ModelDB publishes no blanket
+licence for model source; its terms ask users to cite ModelDB and the original
+papers. Both models are downloaded from source by
+
+    bash scripts/fetch_modeldb.sh
+
+1. Wild-type and R859C Nav1.1
+   ModelDB accession 87585 -- https://modeldb.science/87585
+   Barela AJ, Waddy SP, Lickfett JG, et al. (2006) An epilepsy mutation in the
+   sodium channel SCN1A that decreases channel excitability.
+   Journal of Neuroscience 26(10):2714-2723.
+   Installed into Neuron_Test/R859C/.
+
+2. CA1 pyramidal neuron with wild-type and D212G M-current
+   ModelDB accession 118986 -- https://modeldb.science/118986
+   Miceli F, Soldovieri MV, Hernandez CC, Shapiro MS, Annunziato L,
+   Taglialatela M (2009) Neutralization of a unique, negatively-charged residue
+   in the voltage sensor of Kv7.2 subunits in a sporadic case of benign familial
+   neonatal seizures. Neurobiology of Disease 34(3):501-510.
+   Installed into experiments/wo6/phase2/mutant/.
+
+ModelDB:
+   McDougal RA, Morse TM, Carnevale T, et al. (2017) Twenty years of ModelDB and
+   beyond: building essential modeling tools for the future of neuroscience.
+   Journal of Computational Neuroscience 42(1):1-10.
+
+
+Files derived from ModelDB accession 87585
+------------------------------------------
+
+Three files in Neuron_Test/R859C/ were written by modifying that entry's
+APthreshold.hoc and keep its original header. They implement the paper's own
+stimulus protocol and are distributed here with the original attributed above:
+
+    neuron.hoc                 the 35-level current ladder used in the paper
+    APthreshold WT-2005.hoc    threshold run, wild-type arm
+    APthreshold R859C.hoc      threshold run, R859C arm
+
+The two archived voltage traces in that directory were computed with the
+mechanisms of that entry; what wrote them is not identified (docs/REPRODUCE.md).
+
+The neuron.hoc file in each directory of pipeline/r859c/ was also written by
+modifying that entry's APthreshold.hoc, keeps its original header, and is
+distributed with the same attribution. Explore8's copy is identical to
+Neuron_Test/R859C/neuron.hoc; the GA runs used an earlier version, and the
+simulation-based-inference run a version with two added cell templates.
+
+
+Differentiable Hodgkin-Huxley model
+-----------------------------------
+
+mimic_cell_activity/HH.py is an independent implementation of the Hodgkin and
+Huxley (1952) equations.
+
+
+Colour palette
+--------------
+
+figures/scripts/wo7_style.py uses the Okabe-Ito colour-blind-safe palette,
+published as a public recommendation by Masataka Okabe and Kei Ito.

@@ -1,0 +1,34 @@
+torch 2.10.0+cu128  NVIDIA GeForce RTX 2070  7.60 GiB
+setup and warm-up are OUTSIDE the timed region
+
+--- baseline: the repository's own HH.forward, eager Python loop ---
+     sets   us per step  s per set-unit      sets/s   peak GiB
+       64        985.51          29.565         2.2       0.00
+     1024        979.29          29.379        34.9       0.00
+     4096        978.95          29.369       139.5       0.01
+    16384        975.91          29.277       559.6       0.04
+    65536       4108.66         123.260       531.7       0.15
+   262144      16094.15         482.825       542.9       0.60
+  1048576      64039.82        1921.195       545.8       2.32
+
+--- CUDA graph capture, 25 integration steps per replay ---
+     sets   us per step  s per set-unit      sets/s   peak GiB
+       64         88.12           2.644        24.2       0.00
+     1024        110.39           3.312       309.2       0.00
+     4096        175.11           5.253       779.7       0.02
+    16384        697.77          20.933       782.7       0.07
+    65536       3891.64         116.749       561.3       0.26
+   262144      15338.94         460.168       569.7       1.05
+  1048576      61134.57        1834.037       571.7       4.10
+
+--- torch.compile (Inductor), 25 integration steps per call ---
+     sets   us per step  s per set-unit      sets/s   peak GiB
+       64          7.07           0.212       301.9       0.00
+     1024          6.78           0.203      5031.9       0.00
+     4096          6.91           0.207     19767.9       0.01
+    16384         17.42           0.523     31346.4       0.04
+    65536         65.29           1.959     33458.8       0.16
+   262144        254.39           7.632     34350.0       0.67
+  1048576       1019.51          30.585     34283.7       2.60
+
+DONE

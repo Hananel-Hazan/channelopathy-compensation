@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: If you use this code, please cite the paper it accompanies.
+version: v8.15
+doi: "10.5281/zenodo.22942388"
+repository-code: "https://github.com/Hananel-Hazan/channelopathy-compensation"
+title: >-
+  Code and data for "Computational framework for identifying ion channel
+  mutation-compensating interventions"
+authors:
+  - family-names: Hazan
+    given-names: Hananel
+    orcid: https://orcid.org/0000-0003-1446-1628
+    affiliation: Allen Discovery Center at Tufts University
+  - family-names: Levin
+    given-names: Michael
+    orcid: https://orcid.org/0000-0001-7292-8084
+    affiliation: >-
+      Allen Discovery Center at Tufts University; Wyss Institute for
+      Biologically Inspired Engineering, Harvard University
+preferred-citation:
+  type: article
+  title: >-
+    Computational framework for identifying ion channel mutation-compensating
+    interventions
+  authors:
+    - family-names: Hazan
+      given-names: Hananel
+    - family-names: Levin
+      given-names: Michael
+  year: 2026

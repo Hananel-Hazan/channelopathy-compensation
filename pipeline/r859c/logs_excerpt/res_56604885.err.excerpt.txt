@@ -1,0 +1,9 @@
+Excerpt of SBI-HH_d-1/res_56604885.err (job log of the original run; the full log is in the Zenodo deposit).
+Progress bars in this log are redrawn in place with carriage returns, so one physical line
+holds many redraws. Each entry gives the physical line number (counting newline characters),
+the byte offset of the quoted redraw, and the redraw's text exactly as logged.
+
+line 3, byte 24597188: Running 250000 simulations.:  98%|█████████▊| 244166/250000 [61:19:42<1:37:42,  1.00s/it]
+    a momentary reading of 1.00 s per candidate parameter set
+line 3, byte 25230948: Running 250000 simulations.: 100%|██████████| 250000/250000 [62:47:30<00:00,  1.09it/s]
+    the run ends: 250,000 sets in 62 h 47 min 30 s

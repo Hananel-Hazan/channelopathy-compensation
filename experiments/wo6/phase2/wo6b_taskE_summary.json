@@ -1,0 +1,58 @@
+{
+ "rows": {
+  "0.01": {
+   "one_at_a_time": 100.0,
+   "joint_median": 100.0,
+   "joint_p5": 100.0,
+   "worst_case": 96.875,
+   "rejected": 0
+  },
+  "0.02": {
+   "one_at_a_time": 96.875,
+   "joint_median": 100.0,
+   "joint_p5": 96.875,
+   "worst_case": 93.75000000000001,
+   "rejected": 0
+  },
+  "0.03": {
+   "one_at_a_time": 96.875,
+   "joint_median": 100.0,
+   "joint_p5": 93.59375000000001,
+   "worst_case": 84.375,
+   "rejected": 0
+  },
+  "0.05": {
+   "one_at_a_time": 78.125,
+   "joint_median": 96.875,
+   "joint_p5": 78.125,
+   "worst_case": 71.875,
+   "rejected": 0
+  },
+  "0.1": {
+   "one_at_a_time": 65.625,
+   "joint_median": 81.25,
+   "joint_p5": 65.3125,
+   "worst_case": 40.62500000000001,
+   "rejected": 0
+  },
+  "0.15": {
+   "one_at_a_time": 34.375,
+   "joint_median": 76.5625,
+   "joint_p5": 37.1875,
+   "worst_case": 3.1250000000000013,
+   "rejected": 0
+  },
+  "0.2": {
+   "one_at_a_time": 6.250000000000003,
+   "joint_median": 71.875,
+   "joint_p5": 17.968750000000004,
+   "worst_case": -21.875,
+   "rejected": 0
+  }
+ },
+ "similarity_at_optimum": 88.88888888888889,
+ "files": [
+  "wo6b_taskE_stability_biohours.json",
+  "wo6b_taskE_stability_hoursone.json"
+ ]
+}

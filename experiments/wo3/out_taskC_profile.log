@@ -1,0 +1,24 @@
+NVIDIA GeForce RTX 2070, 7.60 GiB, 36 SMs
+
+measured device-to-device copy bandwidth: 393.6 GB/s
+  (this is the practical ceiling for a purely memory-bound kernel)
+
+bandwidth the unfused integration loop demands, using the wall-clock
+and kernel times measured in wo3_taskC1.py:
+     sets  arrays/step  GB per step  kernel us/step   GB/s demanded  % of measured
+    16384        184.0        0.422           744.4           567.0         144.1%
+    65536        184.0        1.688          4094.3           412.3         104.8%
+   262144        184.0        6.753         16078.1           420.0         106.7%
+##### fused-variant profile
+torch 2.10.0+cu128  NVIDIA GeForce RTX 2070
+torch.compile, 25 integration steps per call
+
+     sets  kernels/step  wall us/step  kernel us/step  kernel share   util %  GB/s of traffic
+<conda>/lib/python3.13/site-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.
+  _warn_once(
+    16384          0.12         19.73           17.23         87.3%      0.0             51.2
+    65536          0.12         63.42           57.65         90.9%      0.0             63.7
+   262144          0.12        254.05          246.65         97.1%     36.7             63.6
+
+DONE
+###PROFDONE###

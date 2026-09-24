@@ -1,0 +1,89 @@
+{
+  "restoration_pct": 88.8889,
+  "restoration_reported": "88.9%",
+  "precision_percentage_points_per_action_potential": 2.7778,
+  "distance_best": 4,
+  "distance_untreated": 36,
+  "prescription_multiples_of_baseline": {
+    "gna": 0.7895,
+    "gkdr": 1.9405,
+    "g_pas": 0.966
+  },
+  "prescription_absolute": {
+    "gna": 0.035528212249954595,
+    "gkdr": 0.038810544086530833,
+    "g_pas": 2.587593032372657e-05
+  },
+  "baselines": {
+    "gna": 0.045,
+    "gkdr": 0.02,
+    "g_pas": 2.6785714285714284e-05
+  },
+  "counts": {
+    "reference": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      9,
+      10,
+      12,
+      16,
+      20,
+      24
+    ],
+    "variant": [
+      1,
+      1,
+      7,
+      8,
+      9,
+      9,
+      10,
+      11,
+      13,
+      17,
+      21,
+      26
+    ],
+    "compensated": [
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      8,
+      10,
+      12,
+      16,
+      21,
+      25
+    ]
+  },
+  "currents_nA": [
+    0.3,
+    0.4,
+    0.44,
+    0.46,
+    0.48,
+    0.5,
+    0.52,
+    0.55,
+    0.6,
+    0.7,
+    0.85,
+    1.0
+  ],
+  "candidates_scored": 1864,
+  "candidates_rejected": 136,
+  "candidates_at_or_above": {
+    "80": 1,
+    "70": 2,
+    "60": 9,
+    "50": 17
+  },
+  "source": "experiments/wo6/phase2/wo6b_taskD2_search.json"
+}

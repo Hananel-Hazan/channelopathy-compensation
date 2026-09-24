@@ -1,0 +1,28 @@
+{
+  "title": "Code and data for \"Computational framework for identifying ion channel mutation-compensating interventions\"",
+  "upload_type": "software",
+  "version": "v8.15",
+  "description": "<p>Code and data for the paper by Hananel Hazan and Michael Levin, as submitted to PLOS Computational Biology (v8.15). The deposit holds the repository at the release tag, the two archived candidate databases of the R859C search, which are behind Figure 7 and are too large for the repository, and the full run logs of the original NEURON searches. The two third-party NEURON models are available from ModelDB (accessions 87585 and 118986) and are downloaded by scripts/fetch_modeldb.sh. Section 4 of docs/REPRODUCE.md lists the few numbers in the paper whose raw output is not archived, and the two search runs whose exact code version is not archived.</p><p>Licences. The data (the CSV, JSON, NPZ, NPY, log and out files and Markdown tables under figures/ and experiments/, the archived traces in Neuron_Test/R859C/, the fit images in mimic_cell_activity/fit_snapshots_2020-06-01/, the two databases and the run logs) are licensed under the Creative Commons Attribution 4.0 International licence (LICENSE-DATA). The code (the .py, .sh and .yml files and requirements.txt) is licensed under the Apache License 2.0, subject to the Tufts Open Source License Rider v.1 (Academic Use Only), which limits the rights granted to academic, non-commercial research (LICENSE). The .hoc files derived from ModelDB accession 87585 keep their original attribution.</p>",
+  "creators": [
+    {
+      "name": "Hazan, Hananel",
+      "affiliation": "Allen Discovery Center at Tufts University",
+      "orcid": "0000-0003-1446-1628"
+    },
+    {
+      "name": "Levin, Michael",
+      "affiliation": "Allen Discovery Center at Tufts University; Wyss Institute for Biologically Inspired Engineering, Harvard University",
+      "orcid": "0000-0001-7292-8084"
+    }
+  ],
+  "access_right": "open",
+  "notes": "Two licences: CC BY 4.0 for the data, and Apache-2.0 subject to the Tufts Open Source License Rider v.1 - Academic Use Only for the code. See LICENSE-DATA, LICENSE and NOTICE.",
+  "keywords": [
+    "channelopathy",
+    "ion channel",
+    "bioelectricity",
+    "Hodgkin-Huxley",
+    "differentiable simulation",
+    "NEURON"
+  ]
+}

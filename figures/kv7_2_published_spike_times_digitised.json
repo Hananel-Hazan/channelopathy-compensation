@@ -1,0 +1,212 @@
+{
+ "source": "ModelDB 118986, screenshot.jpg (read, not reproduced)",
+ "calibration": {
+  "shape": [
+   420,
+   557
+  ],
+  "axis_row": 176,
+  "x0": 95,
+  "x1": 503,
+  "scale_px_per_ms": 0.816,
+  "label_fit": [
+   0.816,
+   94.4
+  ],
+  "label_centres": [
+   176.0,
+   257.5,
+   339.5,
+   420.5,
+   502.5
+  ]
+ },
+ "ms_per_px": 1.2254901960784315,
+ "uncertainty": {
+  "px": 1.6,
+  "ms": 1.9607843137254903,
+  "components_px": {
+   "column_quantisation": 0.5,
+   "calibration_quantisation": 0.5,
+   "calibration_disagreement": 0.6
+  },
+  "note": "widened by the measured calibration disagreement after the +-1 px band left spike 8 outside"
+ },
+ "features_px": [
+  [
+   104,
+   105
+  ],
+  [
+   133
+  ],
+  [
+   175,
+   176
+  ],
+  [
+   219,
+   220
+  ],
+  [
+   263,
+   264
+  ],
+  [
+   307,
+   308
+  ],
+  [
+   351
+  ],
+  [
+   394,
+   395
+  ]
+ ],
+ "stroke_top_rows": [
+  {
+   "104": 81,
+   "105": 82
+  },
+  {
+   "133": 87
+  },
+  {
+   "175": 120,
+   "176": 88
+  },
+  {
+   "219": 88,
+   "220": 100
+  },
+  {
+   "263": 88,
+   "264": 131
+  },
+  {
+   "307": 88,
+   "308": 166
+  },
+  {
+   "351": 88
+  },
+  {
+   "394": 88,
+   "395": 88
+  }
+ ],
+ "assignment": "column 104 (taller) -> variant spike 1; column 105 -> reference spike",
+ "all_within": true,
+ "n_residual_over_half_px": 2,
+ "spikes": [
+  {
+   "arm": "variant",
+   "spike": 1,
+   "column_px": 104,
+   "digitised_ms": 11.03,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 10.788,
+   "residual_ms": 0.24,
+   "residual_px": 0.2,
+   "within": true,
+   "located_by": "taller of the two strokes in the first feature"
+  },
+  {
+   "arm": "reference",
+   "spike": 1,
+   "column_px": 105,
+   "digitised_ms": 12.25,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 11.901,
+   "residual_ms": 0.35,
+   "residual_px": 0.29,
+   "within": true,
+   "located_by": "shorter of the two strokes in the first feature"
+  },
+  {
+   "arm": "variant",
+   "spike": 2,
+   "column_px": 133,
+   "digitised_ms": 46.57,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 46.391,
+   "residual_ms": 0.18,
+   "residual_px": 0.14,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  },
+  {
+   "arm": "variant",
+   "spike": 3,
+   "column_px": 175,
+   "digitised_ms": 98.04,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 98.81,
+   "residual_ms": -0.77,
+   "residual_px": -0.63,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  },
+  {
+   "arm": "variant",
+   "spike": 4,
+   "column_px": 219,
+   "digitised_ms": 151.96,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 152.427,
+   "residual_ms": -0.47,
+   "residual_px": -0.38,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  },
+  {
+   "arm": "variant",
+   "spike": 5,
+   "column_px": 263,
+   "digitised_ms": 205.88,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 206.47,
+   "residual_ms": -0.59,
+   "residual_px": -0.48,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  },
+  {
+   "arm": "variant",
+   "spike": 6,
+   "column_px": 307,
+   "digitised_ms": 259.8,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 260.113,
+   "residual_ms": -0.31,
+   "residual_px": -0.25,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  },
+  {
+   "arm": "variant",
+   "spike": 7,
+   "column_px": 351,
+   "digitised_ms": 313.73,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 313.83,
+   "residual_ms": -0.1,
+   "residual_px": -0.09,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  },
+  {
+   "arm": "variant",
+   "spike": 8,
+   "column_px": 394,
+   "digitised_ms": 366.42,
+   "uncertainty_ms": 1.96,
+   "simulated_ms": 367.738,
+   "residual_ms": -1.32,
+   "residual_px": -1.07,
+   "within": true,
+   "located_by": "first column of the rising stroke at the 0 mV line"
+  }
+ ]
+}
